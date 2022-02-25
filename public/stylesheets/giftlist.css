@@ -23,12 +23,15 @@
     border: 2px solid green;
     flex-direction:column;
     justify-content: space-between;
+    width: 100%;
   }
   #info {
     border: 2px solid blue;
   }
   #rating {
     border: 2px solid red;
+    display: flex;
+    justify-content: space-between;
   }
   
   
