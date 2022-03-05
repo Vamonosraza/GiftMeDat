@@ -1,3 +1,7 @@
+* {
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
 #Container{
     display:flex;
     
@@ -26,7 +30,9 @@
     width: 100%;
   }
   #info {
+    display:flex;
     border: 2px solid blue;
+    justify-content: space-between;
   }
   #rating {
     border: 2px solid red;
@@ -34,4 +40,18 @@
     justify-content: space-between;
   }
   
-  
+  .line {
+    border: 1px solid  #EBEBEB;
+    margin: 10px;
+  }
+
+  #info .gift_title {
+    font-size: 18px;
+    
+  }
+
+  #info .gift_description {
+    font-size: 14px;
+    color: rgb(113, 113, 113);
+
+  }
