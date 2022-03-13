@@ -2,7 +2,7 @@
   font-family: Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
-#Container{
+.container{
     display:flex;
     
   }
@@ -14,7 +14,7 @@
     border-radius: 10px;
   }
   
-  #Image img {
+  .Image img {
     width: 100%;
     object-fit: cover;
     height: 100%;
@@ -22,19 +22,19 @@
     border-radius: 10px;
   }
   
-  #content {
+  .content {
     display:flex;
     border: 2px solid green;
     flex-direction:column;
     justify-content: space-between;
     width: 100%;
   }
-  #info {
+  .info {
     display:flex;
     border: 2px solid blue;
     justify-content: space-between;
   }
-  #rating {
+  .rating {
     border: 2px solid red;
     display: flex;
     justify-content: space-between;
@@ -45,12 +45,12 @@
     margin: 10px;
   }
 
-  #info .gift_title {
+  .info .gift_title {
     font-size: 18px;
     
   }
 
-  #info .gift_description {
+  .info .gift_description {
     font-size: 14px;
     color: rgb(113, 113, 113);
 
